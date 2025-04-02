@@ -19,16 +19,18 @@
     {% include analytics.html %}
   </body>
 
-  {% if page.toc==true %}
-  <script>
-    document.getElementById("main").classList.add("withtoc");
-  </script>
-  {% endif %}
-
-  <div class="wrapper-footer-mobile">
-    <footer class="footer">
-      {% include footer.html %}
-    </footer>
+  <body style="background-color: #E6CFE6">
+    {% if page.toc==true %}
+    <script>
+      document.getElementById("main").classList.add("withtoc");
+    </script>
+    {% endif %}
+  
+    <div class="wrapper-footer-mobile">
+      <footer class="footer">
+        {% include footer.html %}
+      </footer>
+  </body>
 
 
 </html>
