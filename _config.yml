@@ -27,7 +27,7 @@ footer-links:
 
 footer-text: Copyright (c) 2024 ZhiShanHouse
 
-url: https://ZhiShanHouseHistory.github.io
+url: https://zhishanhousehistory.github.io
 
 permalink: /:title/
 paginate_path: /page:num/
